@@ -1,11 +1,11 @@
-# Miller-Rabin Primality Test 🔒
+# Miller-Rabin Primality Test 
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Cryptography](https://img.shields.io/badge/Cryptography-Security-red?style=for-the-badge)
 
 This repository contains a from-scratch Python implementation of the **Miller-Rabin Primality Test**, developed as part of the ECRYP (Cryptography) project during my Erasmus exchange at the Warsaw University of Technology.
 
-## 📌 Project Overview
+## Project Overview
 
 The objective was to build an efficient probabilistic primality testing algorithm **without using any external cryptographic libraries**. 
 Naive trial division is exponentially slow for large numbers, while the Fermat primality test fails against Carmichael numbers. The Miller-Rabin test solves this by detecting strong witnesses to compositeness.
@@ -18,7 +18,7 @@ Naive trial division is exponentially slow for large numbers, while the Fermat p
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repository:
    ```bash
@@ -34,7 +34,7 @@ Naive trial division is exponentially slow for large numbers, while the Fermat p
 
 Upon execution, the script will first run the automated test suite against the reference oracle (trial-division), and then launch the interactive console mode.
 
-## 🧠 Code Architecture
+## Code Architecture
 
 The code is strictly divided into functional blocks:
 - `decompose(n_minus_1)`: Factors $n-1$ into $2^s \cdot r$.
